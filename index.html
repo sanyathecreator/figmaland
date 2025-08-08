@@ -7,206 +7,205 @@
 </head>
 <body>
     <header>
-        <nav>
-            <div>FIGMA LAND</div>
-            <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Product</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Contact</a></li>
+        <nav class="header__nav">
+            <div class="header__logo">FIGMA LAND</div>
+            <ul class="header__menu">
+                <li class="header__menu-item"><a href="#">Home</a></li>
+                <li class="header__menu-item"><a href="#">Product</a></li>
+                <li class="header__menu-item"><a href="#">About</a></li>
+                <li class="header__menu-item"><a href="#">Contact</a></li>
             </ul>
-            <div>
-                <!-- TODO: add icons -->
+            <div class="header__socials">
+                <a class="header__social-link" href="#"><img class="header__social-icon" src="#" alt="twitter logo"></a>
+                <a class="header__social-link" href="#"><img class="header__social-icon" src="#" alt="facebook logo"></a>
+                <a class="header__social-link" href="#"><img class="header__social-icon" src="#" alt="linkedin logo"></a>
             </div>
-    </nav>
+        </nav>
+
+        <div class="header__hero">
+            <h1 class="header__hero-title">The best products start with Figma</h1>
+            <p class="header__hero-text">Most calendars are designed for teams. Slate is designed for freelancers</p>
+            <a class="header__hero-button" href="#">Try for Free</a>
+        </div>
     </header>
 
-    <div>
-        <h1>The best products start with Figma</h1>
-        <p>Most calendars are designed for teams. Slate is designed for freelancers</p>
-        <a href="#">Try for Free</a>
-    </div>
-
     <section class="features">
-        <h2>Features</h2>
-        <p>Most calendars are designed for teams. Slate is designed for freelancers</p>
-        <div class="featues-list">
+        <h2 class="features__title">Features</h2>
+        <p class="features__subtitle">Most calendars are designed for teams. Slate is designed for freelancers</p>
+        <div class="featues__list">
             <!-- TODO: add icons to elements -->
-            <div class="featuere-item">
-                <h3>OpenType features Variable fonts</h3>
-                <p>Slate helps you see how many more days you need to work to reach your financial goal.</p>
+            <div class="featuere__list-item">
+                <h3 class="featuere__list-item-title">OpenType features Variable fonts</h3>
+                <p class="featuere__list-item-text">Slate helps you see how many more days you need to work to reach your financial goal.</p>
             </div>
-            <div class="featuere-item">
-                <h3>Design with real data</h3>
-                <p>Slate helps you see how many more days you need to work to reach your financial goal.</p>
+            <div class="featuere__list-item">
+                <h3 class="featuere__list-item-title">Design with real data</h3>
+                <p class="featuere__list-item-text">Slate helps you see how many more days you need to work to reach your financial goal.</p>
             </div>
-            <div class="featuere-item">
-                <h3>Fastest way to take action</h3>
-                <p>Slate helps you see how many more days you need to work to reach your financial goal.</p>
+            <div class="featuere__list-item">
+                <h3 class="featuere__list-item-title">Fastest way to take action</h3>
+                <p  class="featuere__list-item-text">Slate helps you see how many more days you need to work to reach your financial goal.</p>
             </div>
         </div>
-        <div class="video">
             <!-- TODO: add video -->
-            <img src="img/video.png" alt="video">
-        </div>
+            <img class="features__video" src="img/video.png" alt="video">
     </section>
 
     <section class="organize">
-        <h2>Fastest way to organize</h2>
-        <p>Most calendars are designed for teams. Slate is designed for freelancers</p>
-        <a href="#">Try for Free</a>
-        <div class="laptop">
-            <!-- TODO: Add image with laptop -->
-            <img src="img/macbook.png" alt="macbook">
-        </div>
+        <h2 class="organize__title">Fastest way to organize</h2>
+        <p class="organize__text">Most calendars are designed for teams. Slate is designed for freelancers</p>
+        <a class="organize__button" href="#">Try for Free</a>
+        <!-- TODO: Add image with laptop -->
+        <img class="organize__image" src="img/macbook.png" alt="macbook">
     </section>
 
-    <section class="prototype">
-        <div class="envelope">
-            <!-- TODO: Add image with envelope -->
-            <img src="img/envelope.png" alt="envelope">
-        </div>
-        <h3>At your fingerprints</h3>
+    <section class="subscribtion">
+        <!-- TODO: Add image with envelope -->
+        <img class="subscribtion__image" src="img/envelope.png" alt="envelope">
+        <p class="subscribtion__highlited-text">At your fingerprints</p>
         <h2>Lightning fast prototyping</h2>
-        <h3>Subscribe to our Newsletter</h3>
-        <p>Abaliable exclusivery on Figmaland</p>
-        <div class="subscribe-form">
-            <form action="#" method="post">
-                <input type="email" name="email" placeholder="Your email">
-                <button type="submit">Subscribe</button>
-            </form>
-        </div>
+        <p class="subscribtion__highlited-text">Subscribe to our Newsletter</p>
+        <p class="subscribtion__text">Abaliable exclusivery on Figmaland</p>
+        <form class="subscribe__form" action="#" method="post">
+            <input class="subscribe__form-textfield" type="email" name="email" placeholder="Your email">
+            <button class="subscribe__form-button" type="submit">Subscribe</button>
+        </form>
     </section>
 
     <section class="partners">
-        <h2>Partners</h2>
-        <p>Most calendars are designed for teams. Slate is designed for freelancers</p>
-        <div class="partners">
+        <h2 class="partners__title">Partners</h2>
+        <p class="partners__text">Most calendars are designed for teams. Slate is designed for freelancers</p>
+        <div class="partners__list">
             <!-- TODO: add partners images -->
         </div>
-        <a href="#">Try for Free</a>
+        <a class="partners__button" href="#">Try for Free</a>
     </section>
 
     <section class="testimonials">
-        <h2>Testimonials</h2>
-        <img src="#" alt="ibm logo">
-        <p>Most calendars are designed for teams. Slate is designed for freelancers</p>
-        <div>
-            <img src="#" alt="avatar">
-            <p>Organize across UI designer</p>
+        <h2 class="testimonials__title">Testimonials</h2>
+        <img class="testimonials__image" src="#" alt="ibm logo">
+        <p class="testimonials__text">Most calendars are designed for teams. Slate is designed for freelancers</p>
+        <div class="testimonials__avatar">
+            <img class="testimonials__avatar-image" src="#" alt="avatar">
+            <p class="testimonials__avatar-text">Organize across UI designer</p>
         </div>
-        <a href="#">More Testimonials</a>
+        <a class="testimonials__button" href="#">More Testimonials</a>
     </section>
 
     <section class="pricing">
-        <h2>Pricing</h2>
-        <p>Most calendars are designed for teams. Slate is designed for freelancers</p>
-        <div class="pricing-items">
-            <div class="pricing-item">
-                <h2>FREE</h2>
-                <p>Organize across all apps by hand</p>
-                <p>0$ Per month</p>
-                <p>Pricing Feature</p>
-                <p>Pricing Feature</p>
-                <p>Pricing Feature</p>
-                <p>Pricing Feature</p>
-                <p>Pricing Feature</p>
-                <a href="#">Order Now</a>
+        <h2 class="pricing__title">Pricing</h2>
+        <p class="title__text">Most calendars are designed for teams. Slate is designed for freelancers</p>
+        <div class="pricing__menu">
+            <div class="pricing__menu-item">
+                <h2 class="pricing__menu-item-plan">FREE</h2>
+                <p class="pricing__menu-item-text">Organize across all apps by hand</p>
+                <p class="pricing__menu-item-price-text"><span class="pricing__menu-item-price">0$</span> Per month</p>
+                <p class="pricing__menu-item-text">Pricing Feature</p>
+                <p class="pricing__menu-item-text">Pricing Feature</p>
+                <p class="pricing__menu-item-text">Pricing Feature</p>
+                <p class="pricing__menu-item-text">Pricing Feature</p>
+                <p class="pricing__menu-item-text">Pricing Feature</p>
+                <a class="pricing__menu-item-button" href="#">Order Now</a>
             </div>
-            <div class="pricing-item">
-                <h2>STANDARD</h2>
-                <p>Organize across all apps by hand</p>
-                <p>10$ Per month</p>
-                <p>Pricing Feature</p>
-                <p>Pricing Feature</p>
-                <p>Pricing Feature</p>
-                <p>Pricing Feature</p>
-                <p>Pricing Feature</p>
-                <a href="#">Order Now</a>
+            <div class="pricing__menu-item">
+                <h2 class="pricing__menu-item-plan">STANDARD</h2>
+                <p class="pricing__menu-item-text">Organize across all apps by hand</p>
+                <p class="pricing__menu-item-price-text"><span class="pricing__menu-item-price">10$</span> Per month</p>
+                <p class="pricing__menu-item-text">Pricing Feature</p>
+                <p class="pricing__menu-item-text">Pricing Feature</p>
+                <p class="pricing__menu-item-text">Pricing Feature</p>
+                <p class="pricing__menu-item-text">Pricing Feature</p>
+                <p class="pricing__menu-item-text">Pricing Feature</p>
+                <a class="pricing__menu-item-button" href="#">Order Now</a>
             </div>
-            <div class="pricing-item">
-                <h2>BUSINESS</h2>
-                <p>Organize across all apps by hand</p>
-                <p>99$ Per month</p>
-                <p>Pricing Feature</p>
-                <p>Pricing Feature</p>
-                <p>Pricing Feature</p>
-                <p>Pricing Feature</p>
-                <p>Pricing Feature</p>
-                <a href="#">Order Now</a>
+            <div class="pricing__menu-highlited-item">
+                <h2 class="pricing__menu-highlited-item-plan">BUSINESS</h2>
+                <p class="pricing__menu-highlited-item-text">Organize across all apps by hand</p>
+                <p class="pricing__menu-highlited-item-price-text"><span class="pricing__menu-highlited-item-price">99$</span> Per month</p>
+                <p class="pricing__menu-highlited-item-text">Pricing Feature</p>
+                <p class="pricing__menu-highlited-item-text">Pricing Feature</p>
+                <p class="pricing__menu-highlited-item-text">Pricing Feature</p>
+                <p class="pricing__menu-highlited-item-text">Pricing Feature</p>
+                <p class="pricing__menu-highlited-item-text">Pricing Feature</p>
+                <a class="pricing__menu-highlited-item-button" href="#">Order Now</a>
             </div>
         </div>
     </section>
 
-    <section class="contacts-section">
-        <h2>Contact Us</h2>
-        <p>Most calendars are designed for teams. Slate is designed for freelancers</p>
-        <div class="contact-us">
-            <form action="#" method="post">
-                <input type="text" name="name" placeholder="Your name">
-                <input type="email" name="email" placeholder="Your email">
-                <input type="text" name="message" placeholder="Your message">
-                <button type="submit">Send</button>
-            </form>
+    <section class="contacts">
+        <h2 class="contacts__title">Contact Us</h2>
+        <p class="contacts__text">Most calendars are designed for teams. Slate is designed for freelancers</p>
+        <form class="contacts__form" action="#" method="post">
+            <input class="contacts__form-textfield" type="text" name="name" placeholder="Your name">
+            <input class="contacts__form-textfield" type="email" name="email" placeholder="Your email">
+            <input class="contacts__form-message-textfield" type="text" name="message" placeholder="Your message">
+            <button class="contacts__form-button" type="submit">Send</button>
+        </form>
+        <div class="contacts__list">
+            <div class="contacts__list-item">
+                <img class="contacts__list-item-logo" src="#" alt="mark logo">
+                <p class="contacts__list-item-text">6386 Spring St undefined Anchorage, Georgia 12473 United States</p>
+            </div>
+            <div class="contacts__list-item">
+                <img class="contacts__list-item-logo" src="#" alt="mark logo">
+                <p class="contacts__list-item-text">(843)555-0130</p>
+            </div>
+            <div class="contacts__list-item">
+                <img class="contacts__list-item-logo" src="#" alt="mark logo">
+                <p class="contacts__list-item-text">willie.jennings@example.com</p>
+            </div>
         </div>
-        <div class="contacts">
-            <p>6386 Spring St undefined Anchorage, Georgia 12473 United States</p>
-            <p>(843)555-0130</p>
-            <p>willie.jennings@example.com</p>
-        </div>
-        <div class="map">
+        <div class="contacts__map">
             <!-- Todo: add map -->
-            <img src="img/map.png" alt="map">
         </div>
-        <div class="social-icons">
-            <!-- Todo: add logos -->
+        <div class="contacts__socials">
+                <a class="contacts__social-link" href="#"><img class="contacts__social-icon" src="#" alt="twitter logo"></a>
+                <a class="contacts__social-link" href="#"><img class="contacts__social-icon" src="#" alt="facebook logo"></a>
+                <a class="contacts__social-link" href="#"><img class="contacts__social-icon" src="#" alt="linkedin logo"></a>
         </div>
     </section>
 
     <footer class="footer">
-        <div class="footer-container">
-            <div class="footer-columns">
-                <div class="footer-column">
-                    <h3>Pages</h3>
-                    <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">Product</a></li>
-                    <li><a href="#">Pricing</a></li>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Contact</a></li>
-                    </ul>
-                </div>
-
-                <div class="footer-column">
-                    <h3>Tomothy</h3>
-                    <ul>
-                    <li>Eleanor Edwards</li>
-                    <li>Ted Robertson</li>
-                    <li>Annette Russell</li>
-                    <li>Jennie Mckinney</li>
-                    <li>Gloria Richards</li>
-                    </ul>
-                </div>
-
-                <div class="footer-column">
-                    <h3>Jane Black</h3>
-                    <ul>
-                    <li>Philip Jones</li>
-                    <li>Product</li>
-                    <li>Colleen Russell</li>
-                    <li>Marvin Hawkins</li>
-                    <li>Bruce Simmmon</li>
-                    </ul>
-                </div>
-
-                <div class="footer-column contact-info">
-                    <p>7480 Mockingbird Hill undefined</p>
-                    <p>(239) 555-0108</p>
-                    <div class="social-icons">
-                        <!-- Todo: add logos -->
-                    </div>
-                </div>
+        <div class="footer__columns">
+            <div class="footer__columns-item">
+                <h3 class="footer__columns-item-title">Pages</h3>
+                <a class="footer__columns-item-text" href="#">Home</a>
+                <a class="footer__columns-item-text" href="#">Product</a>
+                <a class="footer__columns-item-text" href="#">Pricing</a>
+                <a class="footer__columns-item-text" href="#">About</a>
+                <a class="footer__columns-item-text" href="#">Contact</a>
             </div>
+            <div class="footer__columns-item">
+                <h3 class="footer__columns-item-title">Tomothy</h3>
+                <a class="footer__columns-item-text" href="#">Eleanor Edwards</a>
+                <a class="footer__columns-item-text" href="#">Ted Robertson</a>
+                <a class="footer__columns-item-text" href="#">Annette Russell</a>
+                <a class="footer__columns-item-text" href="#">Jennie Mckinney</a>
+                <a class="footer__columns-item-text" href="#">Gloria Richards</a>
+            </div>
+            <div class="footer__columns-item">
+                <h3 class="footer__columns-item-title">Jane Black</h3>
+                <a class="footer__columns-item-text" href="#">Home</a>
+                <a class="footer__columns-item-text" href="#">Product</a>
+                <a class="footer__columns-item-text" href="#">Pricing</a>
+                <a class="footer__columns-item-text" href="#">About</a>
+                <a class="footer__columns-item-text" href="#">Contact</a>
+            </div>
+        </div>
+        <div class="footer__contacts">
+            <div class="footer__contacts-item">
+                <img class="footer__contacts-item-logo" src="#" alt="mark logo">
+                <p class="footer__contacts-item-text">7480 Mockingbird Hill undefined</p>
+            </div>
+            <div class="footer__contacts-item">
+                <img class="footer__contacts-item-logo" src="#" alt="phone logo">
+                <p class="footer__contacts-item-text">(239) 555-0108</p>
+            </div>
+        </div>
+        <div class="footer__socials">
+                <a class="footer__social-link" href="#"><img class="footer__social-icon" src="#" alt="twitter logo"></a>
+                <a class="footer__social-link" href="#"><img class="footer__social-icon" src="#" alt="facebook logo"></a>
+                <a class="footer__social-link" href="#"><img class="footer__social-icon" src="#" alt="linkedin logo"></a>
         </div>
     </footer>
 </body>
