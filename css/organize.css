@@ -1,0 +1,41 @@
+.organize {
+    text-align: center;
+    margin: 50px auto;
+    padding: 30px 20px;
+    font-family: Arial, sans-serif;
+    max-width: 380px;
+}
+
+.organize__title {
+    font-size: 48px;
+    font-weight: 400;
+    padding-bottom: 50px;
+    margin: 0 auto;
+}
+
+.organize__text {
+    font-size: 28px;
+    font-weight: 400;
+    letter-spacing: .2px;
+}
+
+.organize__button {
+    display: inline-block;
+    padding: 16px 48px;
+    margin: 60px 0;
+    text-decoration: none;
+    background-color: #2091F9;
+    color: #FFFFFF;
+    font-size: 20px;
+    font-weight: 700;
+    border-radius: 999px;
+}
+
+.organize__button:hover {
+    background-color: #005FCC;
+}
+
+.organize__image {
+    display: block;
+    margin: 0 auto;
+}
