@@ -1,0 +1,71 @@
+.testimonials {
+    text-align: center;
+    margin: 0 auto;
+    padding: 100px 28px;
+    font-family: Arial, sans-serif;
+}
+
+.testimonials__title {
+    font-size: 48px;
+    font-weight: 400;
+    padding-bottom: 50px;
+}
+
+.testimonials__logo {
+    display: block;
+    margin: 0 auto;
+    max-width: 128px;
+    padding: 50px 0;
+}
+
+.testimonials__text {
+    display: block;
+    margin: 0 auto;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 1.6;
+    max-width: 300px;
+}
+
+.testimonials__profile {
+    padding: 50px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.testimonials__profile-avatar {
+    width: 42px;
+    height: 42px;
+    margin-right: 12px;
+}
+
+.testimonials__profile-info {
+    text-align: left; 
+}
+
+.testimonials__profile-info-text {
+    font-size: 10px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.testimonials__profile-info-role {
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.testimonials__button {
+    display: inline-block;
+    padding: 16px 48px;
+    text-decoration: none;
+    background-color: #2091F9;
+    color: #FFFFFF;
+    font-size: 20px;
+    font-weight: 700;
+    border-radius: 999px;
+}
+
+.testimonials__button:hover {
+    background-color: #005FCC;
+}
