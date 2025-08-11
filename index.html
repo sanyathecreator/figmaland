@@ -18,14 +18,6 @@
                 <li class="header__menu-item"><a href="#contact">Contact</a></li>
             </ul>
             <img src="img/png/logo.png" alt="figma land logo">
-            <div class="header__socials">
-                <a class="header__social-link" target="_blank" href="https://x.com/"><img class="header__social-icon"
-                        src="img/svg/twitter-logo.svg" alt="twitter logo"></a>
-                <a class="header__social-link" target="_blank" href="https://facebook.com/"><img
-                        class="header__social-icon" src="img/svg/facebook-logo.svg" alt="facebook logo"></a>
-                <a class="header__social-link" target="_blank" href="https://linkedin.com/"><img
-                        class="header__social-icon" src="img/svg/linkedin-logo.svg" alt="linkedin logo"></a>
-            </div>
         </nav>
 
         <div class="header__hero">
@@ -182,12 +174,14 @@
     <section class="contacts" id="contact">
         <h2 class="contacts__title">Contact Us</h2>
         <p class="contacts__text">Most calendars are designed for teams. Slate is designed for freelancers</p>
-        <form class="contacts__form" action="#" method="post">
-            <input class="contacts__form-textfield" type="text" name="name" placeholder="Your name">
-            <input class="contacts__form-textfield" type="email" name="email" placeholder="Your email">
-            <input class="contacts__form-message-textfield" type="text" name="message" placeholder="Your message">
-            <button class="contacts__form-button" type="submit">Send</button>
-        </form>
+        <div class="contacts__socials">
+            <a class="contacts__social-link" href="#"><img class="contacts__social-icon" src="img/svg/twitter-logo.svg"
+                    alt="twitter logo"></a>
+            <a class="contacts__social-link" href="#"><img class="contacts__social-icon" src="img/svg/facebook-logo.svg"
+                    alt="facebook logo"></a>
+            <a class="contacts__social-link" href="#"><img class="contacts__social-icon" src="img/svg/linkedin-logo.svg"
+                    alt="linkedin logo"></a>
+        </div>
         <div class="contacts__list">
             <div class="contacts__list-item">
                 <img class="contacts__list-item-logo" src="img/svg/mark.svg" alt="mark icon">
@@ -202,17 +196,12 @@
                 <p class="contacts__list-item-text">willie.jennings@example.com</p>
             </div>
         </div>
-        <div class="contacts__map">
-            <!-- Todo: add map -->
-        </div>
-        <div class="contacts__socials">
-            <a class="contacts__social-link" href="#"><img class="contacts__social-icon" src="img/svg/twitter-logo.svg"
-                    alt="twitter logo"></a>
-            <a class="contacts__social-link" href="#"><img class="contacts__social-icon" src="img/svg/facebook-logo.svg"
-                    alt="facebook logo"></a>
-            <a class="contacts__social-link" href="#"><img class="contacts__social-icon" src="img/svg/linkedin-logo.svg"
-                    alt="linkedin logo"></a>
-        </div>
+        <form class="contacts__form" action="#" method="post">
+            <input class="contacts__form-textfield" type="text" name="name" placeholder="Your name">
+            <input class="contacts__form-textfield" type="email" name="email" placeholder="Your email">
+            <input class="contacts__form-message-textfield" type="text" name="message" placeholder="Your message">
+            <button class="contacts__form-button" type="submit">Send</button>
+        </form>
     </section>
 
     <footer class="footer">

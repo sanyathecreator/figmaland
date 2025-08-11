@@ -1,8 +1,10 @@
 @import url('global.css');
+@import url('header.css');
 @import url('features.css');
 @import url('organize.css');
 @import url('subscribtion.css');
 @import url('partners.css');
 @import url('testimonials.css');
 @import url('pricing.css');
+@import url('contacts.css');
 @import url('footer.css');
